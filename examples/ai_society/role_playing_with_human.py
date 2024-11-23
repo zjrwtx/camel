@@ -25,7 +25,7 @@ def main() -> None:
     model = ModelFactory.create(
         model_platform=ModelPlatformType.DEFAULT,
         model_type=ModelType.DEFAULT,
-        model_config_dict=ChatGPTConfig(temperature=1.4, n=3).as_dict(),
+       
     )
     assistant_agent_kwargs = dict(model=model)
     user_agent_kwargs = dict(model=model)

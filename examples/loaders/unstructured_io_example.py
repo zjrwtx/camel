@@ -79,8 +79,7 @@ def chunk_url_content_example(url):
 
 def main():
     example_url = (
-        "https://www.cnn.com/2023/01/30/sport/empire-state-building-green-"
-        "philadelphia-eagles-spt-intl/index.html"
+        "https://www.cnn.com/2023/01/30/sport/empire-state-building-green-philadelphia-eagles-spt-intl/index.html"
     )
     example_dirty_text = (
         "\x93Some dirty text â€™ with extra spaces and – dashes."  # noqa: RUF001

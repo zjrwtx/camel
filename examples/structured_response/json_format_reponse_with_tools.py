@@ -28,9 +28,9 @@ tools_list = [
     *MathToolkit().get_tools(),
     *SearchToolkit().get_tools(),
 ]
-assistant_model_config = ChatGPTConfig(
-    temperature=0.0,
-)
+# assistant_model_config = ChatGPTConfig(
+#     temperature=0.0,
+# )
 
 # Define system message
 assistant_sys_msg = BaseMessage.make_assistant_message(
@@ -41,7 +41,7 @@ assistant_sys_msg = BaseMessage.make_assistant_message(
 model = ModelFactory.create(
     model_platform=ModelPlatformType.DEFAULT,
     model_type=ModelType.DEFAULT,
-    model_config_dict=assistant_model_config.as_dict(),
+    # model_config_dict=assistant_model_config.as_dict(),
 )
 
 # Set agent

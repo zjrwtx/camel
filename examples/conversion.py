@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
     # Convert to CAMEL messages
     camel_messages = sharegpt_to_camel_messages(sharegpt_conv)
-
+    
     print("\nCAMEL Messages:")
     for msg in camel_messages:
         print(f"Role: {msg.role_name}")

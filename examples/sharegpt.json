@@ -1,0 +1,47 @@
+[
+    {
+        "conversations": [
+          {
+            "from": "human",
+            "value": "Hi, I need to know the distance between New York and Los Angeles."
+          },
+          {
+            "from": "function_call",
+            "value": "{\"name\": \"calculate_distance\", \"arguments\": {\"location1\": \"New York\", \"location2\": \"Los Angeles\"}}"
+          },
+          {
+            "from": "observation",
+            "value": "{\"distance\": 2448.5, \"unit\": \"miles\"}"
+          },
+          {
+            "from": "gpt",
+            "value": "The distance between New York and Los Angeles is approximately 2448.5 miles."
+          },
+          {
+            "from": "human",
+            "value": "That's quite a distance. What about the distance between London and Paris?"
+          },
+          {
+            "from": "function_call",
+            "value": "{\"name\": \"calculate_distance\", \"arguments\": {\"location1\": \"London\", \"location2\": \"Paris\"}}"
+          },
+          {
+            "from": "observation",
+            "value": "{\"distance\": 214.4, \"unit\": \"miles\"}"
+          },
+          {
+            "from": "gpt",
+            "value": "The distance between London and Paris is approximately 214.4 miles."
+          },
+          {
+            "from": "human",
+            "value": "Thank you for the information."
+          },
+          {
+            "from": "gpt",
+            "value": "You're welcome! If you have any other questions, feel free to ask."
+          }
+        ],
+        "tools": "[{\"name\": \"calculate_distance\", \"description\": \"Calculate the distance between two locations\", \"parameters\": {\"type\": \"object\", \"properties\": {\"location1\": {\"type\": \"string\", \"description\": \"The first location\"}, \"location2\": {\"type\": \"string\", \"description\": \"The second location\"}}, \"required\": [\"location1\", \"location2\"]}}]"
+      }
+]
