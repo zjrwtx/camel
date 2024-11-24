@@ -11,7 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # =========== Copyright 2023 @ CAMEL-AI.org. All Rights Reserved. ===========
-from typing import Lis
+from typing import List
 
 from camel.messages import BaseMessage, HermesFunctionFormatter
 from camel.messages.conversion import (
