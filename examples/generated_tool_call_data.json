@@ -1,0 +1,1730 @@
+{
+    "generated_queries": [
+        "What is the sum of 15 and 27?",
+        "What is the result of adding 35 and 42?",
+        "What is the sum of 100 and 250?",
+        "What is the result of adding 75 and 125?",
+        "What is the sum of 50 and 75?",
+        "What is the result of subtracting 15 from 42?",
+        "What is the result of subtracting 7 from 25?",
+        "What is the result of subtracting 30 from 100?",
+        "What is the result of subtracting 12 from 50?",
+        "What is the result of subtracting 8 from 35?",
+        "What is the result of multiplying 7 by 3 using the `mul` function?",
+        "What is the product of 5 and 9 using the `mul` function?",
+        "What is the result of multiplying 12 by 4 using the `mul` function?",
+        "What is the product of 8 and 6 using the `mul` function?",
+        "What is the result of multiplying 15 by 3 using the `mul` function?",
+        "I need to find recent academic papers on the application of machine learning in climate modeling. Can you search for the top 10 papers on arXiv related to this topic?",
+        "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling.",
+        "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling.",
+        "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling.",
+        "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling.",
+        "I need to download the latest academic papers on the application of machine learning in healthcare. Please use the `download_papers` function to fetch the top 10 papers from arXiv and save them in the `./machine_learning_healthcare/` directory.",
+        "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory.",
+        "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory.",
+        "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory.",
+        "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory.",
+        "What are the key features of the latest iPhone model, and how do they compare to the previous generation?",
+        "What are the key features of the latest iPhone model, and how do they compare to the previous generation?",
+        "Retrieve information on the key features of the latest iPhone model and compare them to the previous generation.",
+        "Retrieve information on the key features of the latest iPhone model and compare them to the previous generation.",
+        "function information_retrieval(query, contents) {\n  return {\n    \"query\": \"What are the key features of the latest iPhone model compared to the previous generation?\",\n    \"contents\": [\"iPhone latest model features\", \"iPhone previous model features\"]\n  };\n}"
+    ],
+    "tool_call_data": [
+        [
+            {
+                "id": "d02efcf8-ed94-4bc8-8ccf-0a9e307f0287"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "add",
+                        "description": "Adds two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The first number to be added."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The second number to be added."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the sum of 15 and 27?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 15, \"b\": 27}",
+                        "name": "add"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "233395dc-c34e-4e84-898c-e1a4a822a0fa"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "add",
+                        "description": "Adds two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The first number to be added."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The second number to be added."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of adding 35 and 42?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 15, \"b\": 27}",
+                        "name": "add"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "e3d35e08-a176-40ae-8c50-bb4cd8ea20b0"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "add",
+                        "description": "Adds two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The first number to be added."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The second number to be added."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the sum of 100 and 250?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 15, \"b\": 27}",
+                        "name": "add"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "9d903a50-260d-48c2-9b24-b406c4a3062e"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "add",
+                        "description": "Adds two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The first number to be added."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The second number to be added."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of adding 75 and 125?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 15, \"b\": 27}",
+                        "name": "add"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "cec99bb9-38e0-4411-aef0-88341f04cceb"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "add",
+                        "description": "Adds two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The first number to be added."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The second number to be added."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the sum of 50 and 75?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 15, \"b\": 27}",
+                        "name": "add"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "ebc339e4-4f37-4394-aa59-d615c188f317"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "sub",
+                        "description": "Do subtraction between two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The minuend in subtraction."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The subtrahend in subtraction."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of subtracting 15 from 42?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 42, \"b\": 15}",
+                        "name": "sub"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "a8facd78-0b82-40fd-9e16-5e31c8c9c12e"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "sub",
+                        "description": "Do subtraction between two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The minuend in subtraction."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The subtrahend in subtraction."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of subtracting 7 from 25?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 42, \"b\": 15}",
+                        "name": "sub"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "89b4cf97-a77b-4ddd-924c-b596f25476d0"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "sub",
+                        "description": "Do subtraction between two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The minuend in subtraction."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The subtrahend in subtraction."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of subtracting 30 from 100?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 42, \"b\": 15}",
+                        "name": "sub"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "73a29274-a9f2-4b2b-b3f6-fb0e1fe715a8"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "sub",
+                        "description": "Do subtraction between two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The minuend in subtraction."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The subtrahend in subtraction."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of subtracting 12 from 50?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 42, \"b\": 15}",
+                        "name": "sub"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "733f5649-800e-4331-ba39-0da6901aae4e"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "sub",
+                        "description": "Do subtraction between two numbers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The minuend in subtraction."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The subtrahend in subtraction."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of subtracting 8 from 35?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 42, \"b\": 15}",
+                        "name": "sub"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "ab9ffa96-d913-4bf2-b491-911c72184141"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "mul",
+                        "description": "Multiplies two integers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The multiplier in the multiplication."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The multiplicand in the multiplication."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of multiplying 7 by 3 using the `mul` function?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 7, \"b\": 3}",
+                        "name": "mul"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "5791cc5b-7b09-4b04-b279-c0feefca5042"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "mul",
+                        "description": "Multiplies two integers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The multiplier in the multiplication."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The multiplicand in the multiplication."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the product of 5 and 9 using the `mul` function?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 7, \"b\": 3}",
+                        "name": "mul"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "c97cfe77-ae7c-4275-8331-e16c09c759f1"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "mul",
+                        "description": "Multiplies two integers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The multiplier in the multiplication."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The multiplicand in the multiplication."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of multiplying 12 by 4 using the `mul` function?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 7, \"b\": 3}",
+                        "name": "mul"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "54434bac-44ef-4c2f-b144-8f3b034aa7af"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "mul",
+                        "description": "Multiplies two integers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The multiplier in the multiplication."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The multiplicand in the multiplication."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the product of 8 and 6 using the `mul` function?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 7, \"b\": 3}",
+                        "name": "mul"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "a423150d-28c8-4fe7-a5f9-71334c0cf9b1"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "mul",
+                        "description": "Multiplies two integers.",
+                        "parameters": {
+                            "properties": {
+                                "a": {
+                                    "type": "integer",
+                                    "description": "The multiplier in the multiplication."
+                                },
+                                "b": {
+                                    "type": "integer",
+                                    "description": "The multiplicand in the multiplication."
+                                }
+                            },
+                            "required": [
+                                "a",
+                                "b"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What is the result of multiplying 15 by 3 using the `mul` function?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"a\": 7, \"b\": 3}",
+                        "name": "mul"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "23963d1c-37e6-4014-9a5d-9928ca92d4ae"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "search_papers",
+                        "description": "Searches for academic papers on arXiv using a query string and\noptional paper IDs.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to search for. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto return. (default::obj: `5`)"
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "I need to find recent academic papers on the application of machine learning in climate modeling. Can you search for the top 10 papers on arXiv related to this topic?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning application climate modeling\", \"max_results\": 10}",
+                        "name": "search_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "acc0fca4-ed48-4bdd-9ef9-b30caa3511e2"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "search_papers",
+                        "description": "Searches for academic papers on arXiv using a query string and\noptional paper IDs.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to search for. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto return. (default::obj: `5`)"
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning climate modeling\", \"max_results\": 10}",
+                        "name": "search_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "12ce20e1-b623-43ab-bb22-94cbc2e9347a"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "search_papers",
+                        "description": "Searches for academic papers on arXiv using a query string and\noptional paper IDs.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to search for. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto return. (default::obj: `5`)"
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning climate modeling\", \"max_results\": 10}",
+                        "name": "search_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "a994ff09-bb92-46b2-a6d1-b11fb5916b7e"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "search_papers",
+                        "description": "Searches for academic papers on arXiv using a query string and\noptional paper IDs.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to search for. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto return. (default::obj: `5`)"
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning climate modeling\", \"max_results\": 10}",
+                        "name": "search_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "6988aae2-d018-4445-bdae-2b3a3d5f3fa6"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "search_papers",
+                        "description": "Searches for academic papers on arXiv using a query string and\noptional paper IDs.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to search for. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto return. (default::obj: `5`)"
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "Please search for the top 10 academic papers on arXiv related to the application of machine learning in climate modeling."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning climate modeling\", \"max_results\": 10}",
+                        "name": "search_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "52c16071-3b9c-479a-9695-b046f372b80f"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "download_papers",
+                        "description": "Downloads PDFs of academic papers from arXiv based on the provided\nquery.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to download. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto download. (default::obj: `5`)"
+                                },
+                                "output_dir": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": "./",
+                                    "description": "The directory to save the downloaded\nPDFs. Defaults to the current directory."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "I need to download the latest academic papers on the application of machine learning in healthcare. Please use the `download_papers` function to fetch the top 10 papers from arXiv and save them in the `./machine_learning_healthcare/` directory."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning healthcare\", \"max_results\": 10, \"output_dir\": \"./machine_learning_healthcare/\"}",
+                        "name": "download_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "e2806c6a-8603-42da-b48d-84f333c29aff"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "download_papers",
+                        "description": "Downloads PDFs of academic papers from arXiv based on the provided\nquery.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to download. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto download. (default::obj: `5`)"
+                                },
+                                "output_dir": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": "./",
+                                    "description": "The directory to save the downloaded\nPDFs. Defaults to the current directory."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning healthcare\", \"max_results\": 10, \"output_dir\": \"./machine_learning_healthcare/\"}",
+                        "name": "download_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "ccb1823c-5654-4734-a76b-d9c6f101dcfe"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "download_papers",
+                        "description": "Downloads PDFs of academic papers from arXiv based on the provided\nquery.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to download. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto download. (default::obj: `5`)"
+                                },
+                                "output_dir": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": "./",
+                                    "description": "The directory to save the downloaded\nPDFs. Defaults to the current directory."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning healthcare\", \"max_results\": 10, \"output_dir\": \"./machine_learning_healthcare/\"}",
+                        "name": "download_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "e54b845a-cf0a-49e9-960e-c758cd4756d4"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "download_papers",
+                        "description": "Downloads PDFs of academic papers from arXiv based on the provided\nquery.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to download. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto download. (default::obj: `5`)"
+                                },
+                                "output_dir": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": "./",
+                                    "description": "The directory to save the downloaded\nPDFs. Defaults to the current directory."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning healthcare\", \"max_results\": 10, \"output_dir\": \"./machine_learning_healthcare/\"}",
+                        "name": "download_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "9a916328-49d0-42a9-b1b6-ac271ac4b3a1"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "download_papers",
+                        "description": "Downloads PDFs of academic papers from arXiv based on the provided\nquery.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The search query string."
+                                },
+                                "paper_ids": {
+                                    "anyOf": [
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": null,
+                                    "description": "A list of specific arXiv paper\nIDs to download. (default::obj: `None`)"
+                                },
+                                "max_results": {
+                                    "anyOf": [
+                                        {
+                                            "type": "integer"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": 5,
+                                    "description": "The maximum number of search results\nto download. (default::obj: `5`)"
+                                },
+                                "output_dir": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "type": "null"
+                                        }
+                                    ],
+                                    "default": "./",
+                                    "description": "The directory to save the downloaded\nPDFs. Defaults to the current directory."
+                                }
+                            },
+                            "required": [
+                                "query"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "I need to download the latest academic papers on the impact of climate change on biodiversity. Please use the `download_papers` function to fetch the top 8 papers from arXiv and save them in the `./climate_change_biodiversity/` directory."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"machine learning in healthcare\", \"max_results\": 10, \"output_dir\": \"./machine_learning_healthcare/\"}",
+                        "name": "download_papers"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "661865f9-493a-4e73-9a56-a686cee714f3"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "information_retrieval",
+                        "description": "Retrieves information from a local vector storage based on the\nspecified query. This function connects to a local vector storage\nsystem and retrieves relevant information by processing the input\nquery. It is essential to use this function when the answer to a\nquestion requires external knowledge sources.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The question or query for which an answer is required."
+                                },
+                                "contents": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        }
+                                    ],
+                                    "description": "Local file paths, remote URLs or\nstring contents."
+                                },
+                                "top_k": {
+                                    "default": 1,
+                                    "type": "integer",
+                                    "description": "The number of top results to return during\nretrieve. Must be a positive integer. Defaults to\n`DEFAULT_TOP_K_RESULTS`."
+                                },
+                                "similarity_threshold": {
+                                    "default": 0.7,
+                                    "type": "number",
+                                    "description": "The similarity threshold\nfor filtering results. Defaults to\n`DEFAULT_SIMILARITY_THRESHOLD`."
+                                }
+                            },
+                            "required": [
+                                "query",
+                                "contents"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What are the key features of the latest iPhone model, and how do they compare to the previous generation?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"What are the key features of the latest iPhone model, and how do they compare to the previous generation?\", \"contents\": \"iPhone\"}",
+                        "name": "information_retrieval"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "1745aef0-14d5-41f1-9e8b-651e8bd26126"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "information_retrieval",
+                        "description": "Retrieves information from a local vector storage based on the\nspecified query. This function connects to a local vector storage\nsystem and retrieves relevant information by processing the input\nquery. It is essential to use this function when the answer to a\nquestion requires external knowledge sources.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The question or query for which an answer is required."
+                                },
+                                "contents": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        }
+                                    ],
+                                    "description": "Local file paths, remote URLs or\nstring contents."
+                                },
+                                "top_k": {
+                                    "default": 1,
+                                    "type": "integer",
+                                    "description": "The number of top results to return during\nretrieve. Must be a positive integer. Defaults to\n`DEFAULT_TOP_K_RESULTS`."
+                                },
+                                "similarity_threshold": {
+                                    "default": 0.7,
+                                    "type": "number",
+                                    "description": "The similarity threshold\nfor filtering results. Defaults to\n`DEFAULT_SIMILARITY_THRESHOLD`."
+                                }
+                            },
+                            "required": [
+                                "query",
+                                "contents"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "What are the key features of the latest iPhone model, and how do they compare to the previous generation?"
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"What are the key features of the latest iPhone model, and how do they compare to the previous generation?\", \"contents\": \"iPhone\"}",
+                        "name": "information_retrieval"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "07e50c8d-e0d5-47aa-b4de-eabed32c2d98"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "information_retrieval",
+                        "description": "Retrieves information from a local vector storage based on the\nspecified query. This function connects to a local vector storage\nsystem and retrieves relevant information by processing the input\nquery. It is essential to use this function when the answer to a\nquestion requires external knowledge sources.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The question or query for which an answer is required."
+                                },
+                                "contents": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        }
+                                    ],
+                                    "description": "Local file paths, remote URLs or\nstring contents."
+                                },
+                                "top_k": {
+                                    "default": 1,
+                                    "type": "integer",
+                                    "description": "The number of top results to return during\nretrieve. Must be a positive integer. Defaults to\n`DEFAULT_TOP_K_RESULTS`."
+                                },
+                                "similarity_threshold": {
+                                    "default": 0.7,
+                                    "type": "number",
+                                    "description": "The similarity threshold\nfor filtering results. Defaults to\n`DEFAULT_SIMILARITY_THRESHOLD`."
+                                }
+                            },
+                            "required": [
+                                "query",
+                                "contents"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "Retrieve information on the key features of the latest iPhone model and compare them to the previous generation."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"What are the key features of the latest iPhone model, and how do they compare to the previous generation?\", \"contents\": \"iPhone\"}",
+                        "name": "information_retrieval"
+                    }
+                ]
+            }
+        ],
+        [
+            {
+                "id": "deb71605-76a1-404e-a3ce-9e3aaaabc814"
+            },
+            {
+                "from": "system",
+                "value": "You are a function calling AI model. You are provided with function signatures within <tools> </tools> XML tags. You may call one or more functions to assist with the user query. Don't make assumptions about what values to plug into functions.",
+                "tool_schema": {
+                    "type": "function",
+                    "function": {
+                        "name": "information_retrieval",
+                        "description": "Retrieves information from a local vector storage based on the\nspecified query. This function connects to a local vector storage\nsystem and retrieves relevant information by processing the input\nquery. It is essential to use this function when the answer to a\nquestion requires external knowledge sources.",
+                        "parameters": {
+                            "properties": {
+                                "query": {
+                                    "type": "string",
+                                    "description": "The question or query for which an answer is required."
+                                },
+                                "contents": {
+                                    "anyOf": [
+                                        {
+                                            "type": "string"
+                                        },
+                                        {
+                                            "items": {
+                                                "type": "string"
+                                            },
+                                            "type": "array"
+                                        }
+                                    ],
+                                    "description": "Local file paths, remote URLs or\nstring contents."
+                                },
+                                "top_k": {
+                                    "default": 1,
+                                    "type": "integer",
+                                    "description": "The number of top results to return during\nretrieve. Must be a positive integer. Defaults to\n`DEFAULT_TOP_K_RESULTS`."
+                                },
+                                "similarity_threshold": {
+                                    "default": 0.7,
+                                    "type": "number",
+                                    "description": "The similarity threshold\nfor filtering results. Defaults to\n`DEFAULT_SIMILARITY_THRESHOLD`."
+                                }
+                            },
+                            "required": [
+                                "query",
+                                "contents"
+                            ],
+                            "type": "object"
+                        }
+                    }
+                }
+            },
+            {
+                "from": "human",
+                "value": "Retrieve information on the key features of the latest iPhone model and compare them to the previous generation."
+            },
+            {
+                "from": "gpt",
+                "value": [
+                    {
+                        "arguments": "{\"query\": \"What are the key features of the latest iPhone model, and how do they compare to the previous generation?\", \"contents\": \"iPhone\"}",
+                        "name": "information_retrieval"
+                    }
+                ]
+            }
+        ]
+    ]
+}
